@@ -14,7 +14,7 @@ potential_takeovers
 
 assetfinder
 
-amass(commented)
+amass(uncomment to use cause it takes some time :)
 
 subjack
 
