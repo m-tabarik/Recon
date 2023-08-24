@@ -19,3 +19,5 @@ amass(uncomment to use cause it takes some time :)
 subjack
 
 waybackurls
+
+Brute list generator
