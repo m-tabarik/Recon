@@ -10,5 +10,5 @@ awk ' {print;} NR % 1 == 0 { print "peter"; }'  burplist.txt > burplistpeter.txt
 function addName { echo "carlos" >> username.txt; echo "wiener" >> username.txt; }
 for value in {1..100}
 do
-addName
+addName   
 done
