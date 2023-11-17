@@ -6,7 +6,7 @@ fi
 if [ ! -d "$url/recon" ];then
 	mkdir $url/recon
 fi
-#    if [ ! -d '$url/recon/eyewitness' ];then
+#    if [ ! -d '$url/recon/eyewitness' ];then   
 #        mkdir $url/recon/eyewitness
 #    fi
 if [ ! -d "$url/recon/scans" ];then
