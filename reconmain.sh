@@ -11,7 +11,7 @@ fi
 #    fi
 if [ ! -d "$url/recon/scans" ];then
 	mkdir $url/recon/scans
-fi 
+fi    
 if [ ! -d "$url/recon/httprobe" ];then
 	mkdir $url/recon/httprobe
 fi
