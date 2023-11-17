@@ -2,7 +2,7 @@
 url=$1
 if [ ! -d "$url" ];then
 	mkdir $url
-fi
+fi  
 if [ ! -d "$url/recon" ];then
 	mkdir $url/recon
 fi
