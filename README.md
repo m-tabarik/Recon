@@ -11,7 +11,7 @@ httprobe
 wayback
   
 potential_takeovers
-
+ 
 assetfinder
 
 amass(uncomment to use cause it takes some time :)
