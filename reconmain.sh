@@ -29,7 +29,7 @@ if [ ! -d "$url/recon/wayback/extensions" ];then
 fi
 if [ ! -f "$url/recon/httprobe/alive.txt" ];then
 	touch $url/recon/httprobe/alive.txt
-fi
+fi 
 if [ ! -f "$url/recon/final.txt" ];then
 	touch $url/recon/final.txt
 fi
