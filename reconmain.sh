@@ -92,7 +92,7 @@ for line in $(cat $url/recon/wayback/wayback_output.txt);do
 		sort -u $url/recon/wayback/extensions/aspx1.txt >> $url/recon/wayback/extensions/aspx.txt
 	fi
 done
-   
+    
 rm $url/recon/wayback/extensions/js1.txt
 rm $url/recon/wayback/extensions/jsp1.txt
 rm $url/recon/wayback/extensions/json1.txt
