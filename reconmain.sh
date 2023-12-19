@@ -95,7 +95,7 @@ done
     
 rm $url/recon/wayback/extensions/js1.txt
 rm $url/recon/wayback/extensions/jsp1.txt
-rm $url/recon/wayback/extensions/json1.txt
+rm $url/recon/wayback/extensions/json1.txt 
 rm $url/recon/wayback/extensions/php1.txt
 rm $url/recon/wayback/extensions/aspx1.txt
 #echo "[+] Running eyewitness against all compiled domains..."
