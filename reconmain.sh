@@ -93,7 +93,6 @@ for line in $(cat $url/recon/wayback/wayback_output.txt);do
 	fi
 done
 
-
 rm $url/recon/wayback/extensions/js1.txt
 rm $url/recon/wayback/extensions/jsp1.txt
 rm $url/recon/wayback/extensions/json1.txt 
