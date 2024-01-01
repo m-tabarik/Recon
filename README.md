@@ -24,4 +24,4 @@ Brute list generator
 
 
 The out of scope remover from subdomains works like set out of scope files in file array.
-Than run the file
+Than run the file by providing bulk subdomains
