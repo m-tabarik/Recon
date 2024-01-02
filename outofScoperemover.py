@@ -8,7 +8,7 @@ def read_subdomains(file_path):
 
 def remove_subdomains(subdomains, subdomains_to_remove):
     return [subdomain for subdomain in subdomains if subdomain not in subdomains_to_remove]
-
+ 
 def write_subdomains(file_path, subdomains):
     with open(file_path, 'w') as file:
         file.write('\n'.join(subdomains))
