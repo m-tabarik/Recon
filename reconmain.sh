@@ -3,7 +3,7 @@ url=$1
 if [ ! -d "$url" ];then
 	mkdir $url
 fi  
-if [ ! -d "$url/recon" ];then  
+if [ ! -d "$url/recon" ];then   
 	mkdir $url/recon
 fi 
 #    if [ ! -d '$url/recon/eyewitness' ];then   
