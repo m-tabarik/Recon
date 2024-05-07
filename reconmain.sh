@@ -19,7 +19,7 @@ if [ ! -d "$url/recon/potential_takeovers" ];then
 	mkdir $url/recon/potential_takeovers
 fi      
 if [ ! -d "$url/recon/wayback" ];then
-	mkdir $url/recon/wayback
+	mkdir $url/recon/wayback 
 fi
 if [ ! -d "$url/recon/wayback/params" ];then 
 	mkdir $url/recon/wayback/params
