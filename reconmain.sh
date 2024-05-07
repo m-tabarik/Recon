@@ -21,7 +21,7 @@ fi
 if [ ! -d "$url/recon/wayback" ];then
 	mkdir $url/recon/wayback
 fi
-if [ ! -d "$url/recon/wayback/params" ];then
+if [ ! -d "$url/recon/wayback/params" ];then 
 	mkdir $url/recon/wayback/params
 fi
 if [ ! -d "$url/recon/wayback/extensions" ];then 
