@@ -24,7 +24,7 @@ fi
 if [ ! -d "$url/recon/wayback/params" ];then
 	mkdir $url/recon/wayback/params
 fi
-if [ ! -d "$url/recon/wayback/extensions" ];then
+if [ ! -d "$url/recon/wayback/extensions" ];then 
 	mkdir $url/recon/wayback/extensions
 fi
 if [ ! -f "$url/recon/httprobe/alive.txt" ];then
