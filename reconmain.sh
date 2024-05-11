@@ -4,7 +4,7 @@ if [ ! -d "$url" ];then
 	mkdir $url
 fi  
 if [ ! -d "$url/recon" ];then   
-	mkdir $url/recon
+	mkdir $url/recon 
 fi 
 #    if [ ! -d '$url/recon/eyewitness' ];then   
 #        mkdir $url/recon/eyewitness
