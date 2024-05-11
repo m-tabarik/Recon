@@ -8,7 +8,7 @@ def process_file(file_name):
 def traverse_folder(folder_path):
     # List all files in the specified folder
     files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
-  
+   
     # Process each file
     for file_name in files: 
         process_file(file_name)
