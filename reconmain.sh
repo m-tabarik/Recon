@@ -14,7 +14,7 @@ if [ ! -d "$url/recon/scans" ];then
 fi     
 if [ ! -d "$url/recon/httprobe" ];then 
 	mkdir $url/recon/httprobe 
-fi
+fi 
 if [ ! -d "$url/recon/potential_takeovers" ];then
 	mkdir $url/recon/potential_takeovers
 fi       
