@@ -4,7 +4,7 @@ def process_file(file_name):
     # Replace this line with the command you want to execute for each file
     command = f"nuclei -l {file_name} -t ../tomcat-detect.yaml "
     os.system(command)
-
+  
 def traverse_folder(folder_path):
     # List all files in the specified folder
     files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
