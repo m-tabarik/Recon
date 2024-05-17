@@ -13,7 +13,7 @@ while IFS= read -r line; do
     echo "$line" >> "$output_file"
   fi
 done < "$input_file" 
-
+  
 echo "URLs with 'shop' keyword removed and saved to $output_file"
 
   
