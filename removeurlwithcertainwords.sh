@@ -12,7 +12,7 @@ while IFS= read -r line; do
   if [[ $line != *"shop"* ]]; then
     echo "$line" >> "$output_file"
   fi
-done < "$input_file"
+done < "$input_file" 
 
 echo "URLs with 'shop' keyword removed and saved to $output_file"
 
