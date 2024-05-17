@@ -15,5 +15,5 @@ while IFS= read -r line; do
 done < "$input_file" 
   
 echo "URLs with 'shop' keyword removed and saved to $output_file"
-
+  
   
