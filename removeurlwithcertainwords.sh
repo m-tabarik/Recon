@@ -9,7 +9,7 @@ if [ ! -f "$input_file" ]; then
 fi
 
 while IFS= read -r line; do
-  if [[ $line != *"shop"* ]]; then
+  if [[ $line != *"shop"* ]]; then  
     echo "$line" >> "$output_file"
   fi
 done < "$input_file" 
