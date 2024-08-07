@@ -3,7 +3,7 @@
 import sys
 
 def read_subdomains(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r') as file:      
         return [line.strip() for line in file]
 
 def remove_subdomains(subdomains, subdomains_to_remove):
