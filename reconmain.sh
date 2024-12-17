@@ -64,7 +64,7 @@ echo "[+] Scraping wayback data..."
 cat $url/recon/final.txt | waybackurls >> $url/recon/wayback/wayback_output.txt
 sort -u $url/recon/wayback/wayback_output.txt
  
-echo "[+] Pulling and compiling all possible params found in wayback data..."
+echo "[+] Pulling and compiling all possible params found in wayback data..."  
 cat $url/recon/wayback/wayback_output.txt | grep '?*=' | cut -d '=' -f 1 | sort -u >> $url/recon/wayback/params/wayback_params.txt
 for line in $(cat $url/recon/wayback/params/wayback_params.txt);do echo $line'=';done
  
