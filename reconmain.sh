@@ -72,7 +72,7 @@ echo "[+] Pulling and compiling js/php/aspx/jsp/json files from wayback output..
 for line in $(cat $url/recon/wayback/wayback_output.txt);do
 	ext="${line##*.}"
 	if [[ "$ext" == "js" ]]; then
-		echo $line >> $url/recon/wayback/extensions/js1.txt
+		echo $line >> $url/recon/wayback/extensions/js1.txt              
 		sort -u $url/recon/wayback/extensions/js1.txt >> $url/recon/wayback/extensions/js.txt
 	fi
 	if [[ "$ext" == "html" ]];then
